@@ -21,7 +21,7 @@ class MyService : Service() {
         {
             player=MediaPlayer.create(this,R.raw.song)
         }
-        if(intent=null)
+        if(intent!=null)
         {
             val datavalue=intent.getStringExtra(PLAYERKEY)
             if(datavalue== PLAYERVALUE)
